@@ -1,0 +1,39 @@
+#content {
+    display: flexbox;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+a, a:hover, a:focus, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #000;
+}
+
+.redr_pages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.redr_options {
+    color: #000;
+    margin: auto;
+}
+
+.title>a,
+.redr_options>a {
+    color: inherit;
+    transition: color 0.4s;
+}
+
+.title>a:hover,
+.redr_options>a:hover {
+    color: #8b008b;
+    transition: color 0.4s;
+}
