@@ -1,0 +1,13 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cont_links{
+    color: inherit;
+    transition: color 0.4s;
+}
+
+.cont_links:hover{
+    color: #8b008b; 
+    transition: color 0.4s;
+}
